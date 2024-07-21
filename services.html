@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - MS Computer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">MS Computer</a></h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MS Computer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section>
+      <h2 class="text-center my-4">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature-card text-center">
+            <i class="fa-solid fa-desktop mb-3"></i>
+            <h3 id="computer-repair">Computer Repair</h3>
+            <p>Our skilled technicians are here to diagnose and fix any issues with your desktop or laptop, ensuring your device runs like new.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card text-center">
+            <i class="fa-solid fa-server mb-3"></i>
+            <h3 id="it-support">IT Support</h3>
+            <p>From troubleshooting to network setup, our IT support services are designed to keep your business running smoothly and efficiently.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card text-center">
+            <i class="fa-solid fa-shield-alt mb-3"></i>
+            <h3 id="data-security">Data Security</h3>
+            <p>Protect your sensitive data with our comprehensive security solutions, including backups, encryption, and antivirus protection.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="feature-card text-center">
+            <i class="fa-solid fa-cloud mb-3"></i>
+            <h3 id="cloud-services">Cloud Services</h3>
+            <p>Leverage the power of the cloud with our range of services, from cloud storage to hosting and beyond, tailored to meet your needs.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card text-center">
+            <i class="fa-solid fa-network-wired mb-3"></i>
+            <h3 id="networking">Networking</h3>
+            <p>We provide comprehensive networking solutions, including setup, maintenance, and optimization for businesses of all sizes.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card text-center">
+            <i class="fa-solid fa-code mb-3"></i>
+            <h3 id="software-development">Software Development</h3>
+            <p>Our software development services cover everything from custom applications to website development, designed to meet your unique requirements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <br>
+  <footer>
+    <p>© 2023 MS Computer. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script>
+    gsap.from('.feature-card', {
+      y: 50,
+      opacity: 0,
+      duration: 1,
+      stagger: 0.2
+    });
+  </script>
+</body>
+</html>

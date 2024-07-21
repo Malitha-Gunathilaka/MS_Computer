@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - MS Computer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">MS Computer</a></h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MS Computer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section>
+      <h2 class="text-center my-4">About Us</h2>
+      <p class="lead text-center">MS Computer is a leading provider of technology solutions and services. Our goal is to help individuals and businesses harness the power of technology to achieve their goals.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h3><i class="fa-solid fa-bullseye"></i> Our Vision</h3>
+          <p>Our vision is to be the most trusted technology partner for our customers, providing innovative solutions that drive success and growth. We are committed to staying at the forefront of technology and continuously improving our offerings to meet the evolving needs of our customers.</p>
+        </div>
+        <div class="col-md-6">
+          <h3><i class="fa-solid fa-rocket"></i> Our Mission</h3>
+          <p>At MS Computer, our mission is to empower individuals and businesses with the latest technology. We believe in the transformative power of technology and strive to deliver high-quality products and services that make a real difference. Our team is dedicated to providing exceptional customer service and ensuring that our clients have the tools they need to succeed.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <h3 class="text-center"><i class="fa-solid fa-users"></i> Our Team</h3>
+          <p class="text-center">Our team of experts is passionate about technology and committed to excellence. From our skilled technicians to our knowledgeable customer support representatives, everyone at MS Computer is focused on delivering the best possible experience for our customers. We take pride in our work and are always looking for new ways to innovate and improve.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+<br>
+  <footer>
+    <div class="container">
+      <p>Contact us at <a href="mailto:malitha@gmail.com">malitha@gmail.com</a></p>
+      <p>Follow us: 
+        <a href="https://linkedin.com/company/example" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/example" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/malitha" target="_blank"><i class="fab fa-github"></i></a>
+      </p>
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script>
+    gsap.from('.row', {
+      y: 50,
+      opacity: 0,
+      duration: 1,
+      stagger: 0.2
+    });
+  </script>
+</body>
+</html>
